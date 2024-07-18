@@ -1,0 +1,102 @@
+{
+    "profession": "Ingeniero de Software",
+    "stack1": "Lenguajes de programación",
+    "stack2": "Frameworks y librerías",
+    "stack3": "Bases de datos",
+    "stack4": "Nube e infraestructura",
+    "experience": {
+        "utalca": {
+            "role": "Desarrollador Unity y consultor",
+            "overview": "La Universidad de Talca es una de las universidades públicas de la región del Maule y es pionera en el uso de realidad virtual y aumentada con fines educativos.",
+            "duration": "2024 - Presente",
+            "location": "Talca, Chile (Remoto)",
+            "skills": ", levantamiento de requerimientos, comunicación y negociación con los clientes.",
+            "contributions": [{
+                "id": "talca1",
+                "text": "Trabajé en el mantenimiento y mejora de una aplicación movil educativa para la enseñanza de microbiología a alumnos de pregrado, usanfo Unity y realidad aumentada."
+            },
+            {
+                "id": "talca2",
+                "text": "Colaboré con la organización para adoptar buenas prácticas, como el uso de repositorios de código a nivel de organización y control de versiones."
+            },
+            {
+                "id": "talca3",
+                "text": "Colaboré con la organización para configurar las cuentas de desarrollador de Google Play y App Store."
+            }]
+        },
+        "alerce": {
+            "role": "Ingeniero de Software",
+            "overview": "ALeRCE es un broker chileno de astronomía, que recibe y procesa en tiempo real las alertas emitidas por el telescopio ZTF y la red de telescopios ATLAS. Los datos luego son facilitado a la comunidad científica mediante diversos servicios y plataformas, como la plataforma ALeRCE Explorer.",
+            "duration": "2022 - 2024",
+            "location": "Concepción, Chile",
+            "skills": ", levantamiento de requerimientos, negociación, dirección de equipo, comunicación con compañeros de equipo y clientes, realización de entrevista técnica.",
+            "contributions": [{
+                "id": "alerce1",
+                "text": "Trabajé en el mantenimiento y mejora del código de los componentes de la pipeline principal y de la plataforma web Explorer, usando los principios SOLID para mejorar su legibilidad. Además de generar la documentación de los componentes."
+            },
+            {
+                "id": "alerce2",
+                "text": "Refactoricé las APIs REST legacy para la consulta de objectos astronómicos, pasando de Flask a FastAPI, mejorando así la legibiliad y el rendimiento general."
+            },            
+            {
+                "id": "alerce3",
+                "text": "Ayudé a generar las acciones en Github para desplegar las nuevas APIs en EKS (Kubernetes en AWS)"
+            },
+            {
+                "id": "alerce4",
+                "text": "Diseñé y desarrollé en Python un nuevo componente de la pipeline para desacoplar las operaciones de escritura desde la pipeline a la base de datos, reduciendo la latencia ~60%."
+            },
+            {
+                "id": "alerce5",
+                "text": "Diseñé y realicé las entrevistas técnicas para candidatos a ingenieros."
+            },
+            {
+                "id": "alerce6",
+                "text": "He mentoreado a desarrolladores junior para entender la arquitectura del proyecto, sus patrones y prácticas."
+            },
+            {
+                "id": "alerce7",
+                "text": "Lideré las retrospectivas para cerrar el sprint y revisar los esfuerzos y dificultades del equipo"
+            }
+            ],
+            "links": [
+                {"title": "Página de información de ALeRCE", "link": "https://alerce.science"},
+                {"title": "ALeRCE Explorer", "link": "https://alerce.online"}
+            ]
+        },
+        "uds": {
+            "role": "Desarrollador Fullstack",
+            "overview": "CDIA (acronym for Data Science and Artificial Intelligence Center in spanish), formerly called UDS (Data Science Unit in spanish) is a start-up founded by teachers and personnel of the University of Concepcion. This center works as a tech consultory, working mainly in projects related with Artificial Intelligence and Data Science. It employs, mostly, the talented graduates from the university.",
+            "duration":"2020 - 2022",
+            "location":"Concepción, Chile",
+            "skills": ", requirement gathering, communication with clients.",
+            "contributions": [
+                {
+                    "id": "uds1",
+                    "text": "Developed the backend of a microservices architecture for GesFire, a wildfire combat system using NestJS, to improve the wildfire system's reliability of the country's biggest forest company, CMPC."
+                },
+                {
+                    "id": "uds2",
+                    "text": "Mentored the junior frontend developer to implement the web application for GesFire in React with functional components."
+                },
+                {
+                    "id": "uds3",
+                    "text": "Developed a NestJS module for GesFire to interact with Pub/Sub in GCP."
+                },
+                {
+                    "id": "uds4",
+                    "text": "Helped the development team of GesFire to understand the Event Driven Architecture proposed by the Software Architect."
+                },
+                {
+                    "id": "uds5",
+                    "text": "Developed and maintained features of ENCCVR, a forest project planning software, using Django and Vue. This project was backed by CONAF and other forest and wildlife national institutions."
+                }
+            ],
+            "links": [
+                {"title": "CDIA Universidad de Concepción", "link": "https://cdia.udec.cl"},
+                {"title": "Nota de prensa de GesFire", "link": "https://www.youtube.com/watch?v=0LqqxaMXJuo"},
+                {"title": "Recorte del periódico acerca del ENCCVR", "link": "https://fi.udec.cl/wp-content/uploads/2023/04/Diario-Concepcion-11-de-marzo.pdf"}
+            ]
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "profession": "Software Engineer",
+    "stack1": "Programming Languages",
+    "stack2": "Frameworks and Libraries",
+    "stack3": "Databases",
+    "stack4": "Cloud and Infrastructure",
+    "experience": {
+        "utalca": {
+            "role": "Unity Developer and Consultant",
+            "overview": "The University of Talca is one of the public univesities in Chile and is a pioneer in using Augmented and Virtual Reality for education.",
+            "duration": "2024 - Present",
+            "location": "Talca, Chile (Remote)",
+            "skills": ", requirement gathering, negotiation, communication with clients.",
+            "contributions": [{
+                "id": "talca1",
+                "text": "Improved and maintained educational mobile applications made to teach microbiology for undergraduates, using Unity and Augmented Reality."
+            },
+            {
+                "id": "talca2",
+                "text": "Helped the organization to adopt good practices, like creating a organizational repository and version control."
+            },
+            {
+                "id": "talca3",
+                "text": "Helped the organization setup developer accounts in Google Play and App Store."
+            }]
+        },
+        "alerce": {
+            "role": "Software Engineer",
+            "overview": "ALeRCE is a chilean astronomy broker, which receives and processes real-time alerts from the ZTF telescope, and the ATLAS telescope network. The data is later served to the scientific community through many services and platforms, like the ALeRCE Explorer platform.",
+            "duration": "2022 - 2024",
+            "location": "Concepcion, Chile",
+            "skills": ", requirements gathering, negotiation, team direction, communication with teammates and clients, technichal interview.",
+            "contributions": [{
+                "id": "alerce1",
+                "text": "Maintained and improved the code of the components of the main pipeline and the ALeRCE Explorer web platform, using the SOLID principles to improve readability, along with documenting the pipeline components."
+            },
+            {
+                "id": "alerce2",
+                "text": "Refactored legacy astronomical object querying REST APIs from Flask to FastAPI to improve readability and general performance."
+            },            
+            {
+                "id": "alerce3",
+                "text": "Hosted the new web services into the Elastic Kubernetes Service in AWS using Github Actions jobs."
+            },
+            {
+                "id": "alerce4",
+                "text": "Designed and developed in Python a pipeline component to decouple the database write operations in the pipeline, reducing the pipeline latency almost 60%."
+            },
+            {
+                "id": "alerce5",
+                "text": "Designed and performed the technical interview for candidates."
+            },
+            {
+                "id": "alerce6",
+                "text": "Mentored junior developers to understand the project's architecture, patterns and practices."
+            },
+            {
+                "id": "alerce7",
+                "text": "Led the Sprint Retrospective to close the sprint and review the team efforts."
+            }
+            ],
+            "links": [
+                {"title": "ALeRCE Information Page", "link": "https://alerce.science"},
+                {"title": "ALeRCE Explorer", "link": "https://alerce.online"}
+            ]
+        },
+        "uds": {
+            "role": "Fullstack Developer",
+            "overview": "CDIA (acronym for Data Science and Artificial Intelligence Center in spanish), formerly called UDS (Data Science Unit in spanish) is a start-up founded by teachers and personnel of the University of Concepcion. This center works as a tech consultory, working mainly in projects related with Artificial Intelligence and Data Science. It employs, mostly, the talented graduates from the university.",
+            "duration":"2020 - 2022",
+            "location":"Concepcion, Chile",
+            "skills": ", requirement gathering, communication with clients.",
+            "contributions": [
+                {
+                    "id": "uds1",
+                    "text": "Developed the backend of a microservices architecture for GesFire, a wildfire combat system using NestJS, to improve the wildfire system's reliability of the country's biggest forest company, CMPC."
+                },
+                {
+                    "id": "uds2",
+                    "text": "Mentored the junior frontend developer to implement the web application for GesFire in React with functional components."
+                },
+                {
+                    "id": "uds3",
+                    "text": "Developed a NestJS module for GesFire to interact with Pub/Sub in GCP."
+                },
+                {
+                    "id": "uds4",
+                    "text": "Helped the development team of GesFire to understand the Event Driven Architecture proposed by the Software Architect."
+                },
+                {
+                    "id": "uds5",
+                    "text": "Developed and maintained features of ENCCVR, a forest project planning software, using Django and Vue. This project was backed by CONAF and other forest and wildlife national institutions."
+                }
+            ],
+            "links": [
+                {"title": "CDIA Universidad de Concepcion (spanish)", "link": "https://cdia.udec.cl"},
+                {"title": "Press release of GesFire (spanish)", "link": "https://www.youtube.com/watch?v=0LqqxaMXJuo"},
+                {"title": "Press note of ENCCVR (spanish)", "link": "https://fi.udec.cl/wp-content/uploads/2023/04/Diario-Concepcion-11-de-marzo.pdf"}
+            ]
+        }
+    }
+}
